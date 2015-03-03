@@ -28,6 +28,10 @@ subproject "$MARMALADE_ROOT/s3e/edk"
 
 if {{defined I3D_OS_IPHONE}}
 {
+    includepath
+    {
+        incoming/PlayerIOClient.framework/Headers/
+    }
     files
     {
         
