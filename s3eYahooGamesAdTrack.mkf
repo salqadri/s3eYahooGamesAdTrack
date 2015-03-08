@@ -54,5 +54,5 @@ deployments
 {
     iphone-link-lib="s3eYahooGamesAdTrack"
     iphone-link-libdir="lib/iphone"
-    iphone-link-opts="-F/Users/sqadri/airplay/s3eYahooGamesAdTrack/incoming -framework PlayerIOClient -framework MessageUI -framework SystemConfiguration -framework AdSupport -lsqlite3"
+    iphone-link-opts="-F/Users/sqadri/airplay/s3eYahooGamesAdTrack/incoming -weak_framework PlayerIOClient -weak_framework MessageUI -weak_framework SystemConfiguration -weak_framework AdSupport -lsqlite3"
 }
